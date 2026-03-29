@@ -175,7 +175,7 @@ def load_json(filepath):
     try:
         with open(filepath, 'r') as f:
             return json.load(f)
-    except:
+    except (json.JSONDecodeError, OSError):
         return None
 
 def save_json(data, filepath):
