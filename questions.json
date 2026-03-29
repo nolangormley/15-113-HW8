@@ -1,0 +1,1664 @@
+{
+    "questions": [
+        {
+            "question_id": 1,
+            "question": "What keyword is used to define a function in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "func",
+                "def",
+                "class",
+                "function"
+            ],
+            "answer": "def",
+            "category": "Python Basics",
+            "difficulty": "easy"
+        },
+        {
+            "question_id": 2,
+            "question": "What keyword is used to define a class in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "class",
+                "def",
+                "object",
+                "struct"
+            ],
+            "answer": "class",
+            "category": "Python Basics",
+            "difficulty": "easy"
+        },
+        {
+            "question": "What keyword is used to include a module in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "require",
+                "include",
+                "import",
+                "using"
+            ],
+            "answer": "import",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 3
+        },
+        {
+            "question": "What keyword is used to return a value from a function in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "return",
+                "give",
+                "yield",
+                "output"
+            ],
+            "answer": "return",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 4
+        },
+        {
+            "question": "What keyword is used to return a generator in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "return",
+                "yield",
+                "generate",
+                "produce"
+            ],
+            "answer": "yield",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 5
+        },
+        {
+            "question": "What keyword is used to do nothing in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "pass",
+                "break",
+                "skip",
+                "continue"
+            ],
+            "answer": "pass",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 6
+        },
+        {
+            "question": "What keyword is used to skip the rest of the loop block in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "pass",
+                "skip",
+                "continue",
+                "break"
+            ],
+            "answer": "continue",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 7
+        },
+        {
+            "question": "What keyword is used to exit a loop in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "stop",
+                "end",
+                "break",
+                "exit"
+            ],
+            "answer": "break",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 8
+        },
+        {
+            "question": "What keyword is used to declare a global variable in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "var",
+                "local",
+                "global",
+                "nonlocal"
+            ],
+            "answer": "global",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 9
+        },
+        {
+            "question": "What keyword is used to declare a nonlocal variable in Python?",
+            "type": "multiple_choice",
+            "options": [
+                "local",
+                "global",
+                "var",
+                "nonlocal"
+            ],
+            "answer": "nonlocal",
+            "category": "Python Basics",
+            "difficulty": "easy",
+            "question_id": 10
+        },
+        {
+            "question": "A list in Python is immutable.",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 11
+        },
+        {
+            "question": "A tuple in Python is immutable.",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 12
+        },
+        {
+            "question": "A set in Python is immutable.",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 13
+        },
+        {
+            "question": "A frozenset in Python is immutable.",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 14
+        },
+        {
+            "question": "A dict in Python is immutable.",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 15
+        },
+        {
+            "question": "A int in Python is immutable.",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 16
+        },
+        {
+            "question": "A float in Python is immutable.",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 17
+        },
+        {
+            "question": "A str in Python is immutable.",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 18
+        },
+        {
+            "question": "A bool in Python is immutable.",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 19
+        },
+        {
+            "question": "A bytes in Python is immutable.",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 20
+        },
+        {
+            "question": "A bytearray in Python is immutable.",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 21
+        },
+        {
+            "question": "What built-in function returns the number of items in an object?",
+            "type": "short_answer",
+            "answer": "len",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 22
+        },
+        {
+            "question": "What built-in function returns the type of an object?",
+            "type": "short_answer",
+            "answer": "type",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 23
+        },
+        {
+            "question": "What built-in function returns the identity of an object?",
+            "type": "short_answer",
+            "answer": "id",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 24
+        },
+        {
+            "question": "What built-in function prints to the standard output device?",
+            "type": "short_answer",
+            "answer": "print",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 25
+        },
+        {
+            "question": "What built-in function reads a string from standard input?",
+            "type": "short_answer",
+            "answer": "input",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 26
+        },
+        {
+            "question": "What built-in function returns the absolute value of a number?",
+            "type": "short_answer",
+            "answer": "abs",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 27
+        },
+        {
+            "question": "What built-in function returns True if all elements of the iterable are true?",
+            "type": "short_answer",
+            "answer": "all",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 28
+        },
+        {
+            "question": "What built-in function returns True if any element of the iterable is true?",
+            "type": "short_answer",
+            "answer": "any",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 29
+        },
+        {
+            "question": "What built-in function returns the largest item in an iterable?",
+            "type": "short_answer",
+            "answer": "max",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 30
+        },
+        {
+            "question": "What built-in function returns the smallest item in an iterable?",
+            "type": "short_answer",
+            "answer": "min",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 31
+        },
+        {
+            "question": "What built-in function Sums the items of an iterable?",
+            "type": "short_answer",
+            "answer": "sum",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 32
+        },
+        {
+            "question": "What built-in function rounds a number to a given precision?",
+            "type": "short_answer",
+            "answer": "round",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 33
+        },
+        {
+            "question": "What built-in function returns a new sorted list from the items in iterable?",
+            "type": "short_answer",
+            "answer": "sorted",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 34
+        },
+        {
+            "question": "What built-in function returns a reverse iterator?",
+            "type": "short_answer",
+            "answer": "reversed",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 35
+        },
+        {
+            "question": "What built-in function returns an enumerate object?",
+            "type": "short_answer",
+            "answer": "enumerate",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 36
+        },
+        {
+            "question": "What built-in function iterates over several iterables in parallel?",
+            "type": "short_answer",
+            "answer": "zip",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 37
+        },
+        {
+            "question": "What built-in function applies a function to every item of an iterable?",
+            "type": "short_answer",
+            "answer": "map",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 38
+        },
+        {
+            "question": "What built-in function constructs an iterator from elements of an iterable for which a function returns true?",
+            "type": "short_answer",
+            "answer": "filter",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 39
+        },
+        {
+            "question": "What built-in function returns a tuple containing the quotient and remainder?",
+            "type": "short_answer",
+            "answer": "divmod",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 40
+        },
+        {
+            "question": "What built-in function returns base to the power exp?",
+            "type": "short_answer",
+            "answer": "pow",
+            "category": "Built-in Functions",
+            "difficulty": "easy",
+            "question_id": 41
+        },
+        {
+            "question": "What is the output of the expression '1 + 16' in Python?",
+            "type": "short_answer",
+            "answer": "17",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 42
+        },
+        {
+            "question": "What is the output of the expression '14 - 15' in Python?",
+            "type": "short_answer",
+            "answer": "-1",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 43
+        },
+        {
+            "question": "What is the output of the expression '11 - 12' in Python?",
+            "type": "short_answer",
+            "answer": "-1",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 44
+        },
+        {
+            "question": "What is the output of the expression '2 - 7' in Python?",
+            "type": "short_answer",
+            "answer": "-5",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 45
+        },
+        {
+            "question": "What is the output of the expression '7 + 5' in Python?",
+            "type": "short_answer",
+            "answer": "12",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 46
+        },
+        {
+            "question": "What is the output of the expression '20 * 13' in Python?",
+            "type": "short_answer",
+            "answer": "260",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 47
+        },
+        {
+            "question": "What is the output of the expression '19 - 19' in Python?",
+            "type": "short_answer",
+            "answer": "0",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 48
+        },
+        {
+            "question": "What is the output of the expression '12 + 5' in Python?",
+            "type": "short_answer",
+            "answer": "17",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 49
+        },
+        {
+            "question": "What is the output of the expression '3 * 9' in Python?",
+            "type": "short_answer",
+            "answer": "27",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 50
+        },
+        {
+            "question": "What is the output of the expression '2 + 18' in Python?",
+            "type": "short_answer",
+            "answer": "20",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 51
+        },
+        {
+            "question": "What is the output of the expression '20 - 10' in Python?",
+            "type": "short_answer",
+            "answer": "10",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 52
+        },
+        {
+            "question": "What is the output of the expression '17 * 16' in Python?",
+            "type": "short_answer",
+            "answer": "272",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 53
+        },
+        {
+            "question": "What is the output of the expression '14 + 14' in Python?",
+            "type": "short_answer",
+            "answer": "28",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 54
+        },
+        {
+            "question": "What is the output of the expression '2 + 14' in Python?",
+            "type": "short_answer",
+            "answer": "16",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 55
+        },
+        {
+            "question": "What is the output of the expression '4 + 20' in Python?",
+            "type": "short_answer",
+            "answer": "24",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 56
+        },
+        {
+            "question": "What is the output of the expression '4 - 6' in Python?",
+            "type": "short_answer",
+            "answer": "-2",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 57
+        },
+        {
+            "question": "What is the output of the expression '15 * 9' in Python?",
+            "type": "short_answer",
+            "answer": "135",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 58
+        },
+        {
+            "question": "What is the output of the expression '13 * 16' in Python?",
+            "type": "short_answer",
+            "answer": "208",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 59
+        },
+        {
+            "question": "What is the output of the expression '11 * 15' in Python?",
+            "type": "short_answer",
+            "answer": "165",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 60
+        },
+        {
+            "question": "What is the output of the expression '16 + 4' in Python?",
+            "type": "short_answer",
+            "answer": "20",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 61
+        },
+        {
+            "question": "What is the output of the expression '16 + 9' in Python?",
+            "type": "short_answer",
+            "answer": "25",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 62
+        },
+        {
+            "question": "What is the output of the expression '9 * 11' in Python?",
+            "type": "short_answer",
+            "answer": "99",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 63
+        },
+        {
+            "question": "What is the output of the expression '18 * 19' in Python?",
+            "type": "short_answer",
+            "answer": "342",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 64
+        },
+        {
+            "question": "What is the output of the expression '18 + 6' in Python?",
+            "type": "short_answer",
+            "answer": "24",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 65
+        },
+        {
+            "question": "What is the output of the expression '17 * 1' in Python?",
+            "type": "short_answer",
+            "answer": "17",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 66
+        },
+        {
+            "question": "What is the output of the expression '9 + 13' in Python?",
+            "type": "short_answer",
+            "answer": "22",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 67
+        },
+        {
+            "question": "What is the output of the expression '19 - 11' in Python?",
+            "type": "short_answer",
+            "answer": "8",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 68
+        },
+        {
+            "question": "What is the output of the expression '8 + 2' in Python?",
+            "type": "short_answer",
+            "answer": "10",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 69
+        },
+        {
+            "question": "What is the output of the expression '11 * 18' in Python?",
+            "type": "short_answer",
+            "answer": "198",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 70
+        },
+        {
+            "question": "What is the output of the expression '6 * 10' in Python?",
+            "type": "short_answer",
+            "answer": "60",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 71
+        },
+        {
+            "question": "What is the output of the expression '20 + 15' in Python?",
+            "type": "short_answer",
+            "answer": "35",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 72
+        },
+        {
+            "question": "What is the output of the expression '19 * 19' in Python?",
+            "type": "short_answer",
+            "answer": "361",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 73
+        },
+        {
+            "question": "What is the output of the expression '18 * 7' in Python?",
+            "type": "short_answer",
+            "answer": "126",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 74
+        },
+        {
+            "question": "What is the output of the expression '18 + 1' in Python?",
+            "type": "short_answer",
+            "answer": "19",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 75
+        },
+        {
+            "question": "What is the output of the expression '1 + 15' in Python?",
+            "type": "short_answer",
+            "answer": "16",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 76
+        },
+        {
+            "question": "What is the output of the expression '18 + 20' in Python?",
+            "type": "short_answer",
+            "answer": "38",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 77
+        },
+        {
+            "question": "What is the output of the expression '4 - 12' in Python?",
+            "type": "short_answer",
+            "answer": "-8",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 78
+        },
+        {
+            "question": "What is the output of the expression '6 * 16' in Python?",
+            "type": "short_answer",
+            "answer": "96",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 79
+        },
+        {
+            "question": "What is the output of the expression '12 + 9' in Python?",
+            "type": "short_answer",
+            "answer": "21",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 80
+        },
+        {
+            "question": "What is the output of the expression '5 - 2' in Python?",
+            "type": "short_answer",
+            "answer": "3",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 81
+        },
+        {
+            "question": "What is the output of the expression '11 - 19' in Python?",
+            "type": "short_answer",
+            "answer": "-8",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 82
+        },
+        {
+            "question": "What is the output of the expression '3 * 19' in Python?",
+            "type": "short_answer",
+            "answer": "57",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 83
+        },
+        {
+            "question": "What is the output of the expression '8 + 20' in Python?",
+            "type": "short_answer",
+            "answer": "28",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 84
+        },
+        {
+            "question": "What is the output of the expression '7 * 20' in Python?",
+            "type": "short_answer",
+            "answer": "140",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 85
+        },
+        {
+            "question": "What is the output of the expression '9 - 3' in Python?",
+            "type": "short_answer",
+            "answer": "6",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 86
+        },
+        {
+            "question": "What is the output of the expression '4 - 18' in Python?",
+            "type": "short_answer",
+            "answer": "-14",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 87
+        },
+        {
+            "question": "What is the output of the expression '17 - 11' in Python?",
+            "type": "short_answer",
+            "answer": "6",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 88
+        },
+        {
+            "question": "What is the output of the expression '14 - 7' in Python?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 89
+        },
+        {
+            "question": "What is the output of the expression '10 + 17' in Python?",
+            "type": "short_answer",
+            "answer": "27",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 90
+        },
+        {
+            "question": "What is the output of the expression '6 + 15' in Python?",
+            "type": "short_answer",
+            "answer": "21",
+            "category": "Arithmetic Operations",
+            "difficulty": "easy",
+            "question_id": 91
+        },
+        {
+            "question": "What is the result of '9 >= 18'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 92
+        },
+        {
+            "question": "What is the result of '11 <= 20'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 93
+        },
+        {
+            "question": "What is the result of '7 <= 15'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 94
+        },
+        {
+            "question": "What is the result of '7 < 14'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 95
+        },
+        {
+            "question": "What is the result of '6 < 7'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 96
+        },
+        {
+            "question": "What is the result of '5 < 4'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 97
+        },
+        {
+            "question": "What is the result of '15 >= 16'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 98
+        },
+        {
+            "question": "What is the result of '20 < 3'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 99
+        },
+        {
+            "question": "What is the result of '13 > 8'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 100
+        },
+        {
+            "question": "What is the result of '20 != 17'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 101
+        },
+        {
+            "question": "What is the result of '8 == 17'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 102
+        },
+        {
+            "question": "What is the result of '5 >= 19'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 103
+        },
+        {
+            "question": "What is the result of '12 > 3'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 104
+        },
+        {
+            "question": "What is the result of '17 >= 10'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 105
+        },
+        {
+            "question": "What is the result of '17 <= 20'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 106
+        },
+        {
+            "question": "What is the result of '8 == 13'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 107
+        },
+        {
+            "question": "What is the result of '19 < 20'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 108
+        },
+        {
+            "question": "What is the result of '11 <= 14'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 109
+        },
+        {
+            "question": "What is the result of '5 != 13'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 110
+        },
+        {
+            "question": "What is the result of '11 < 6'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 111
+        },
+        {
+            "question": "What is the result of '12 > 1'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 112
+        },
+        {
+            "question": "What is the result of '15 <= 4'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 113
+        },
+        {
+            "question": "What is the result of '3 < 3'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 114
+        },
+        {
+            "question": "What is the result of '12 < 19'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 115
+        },
+        {
+            "question": "What is the result of '12 >= 3'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 116
+        },
+        {
+            "question": "What is the result of '4 != 10'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 117
+        },
+        {
+            "question": "What is the result of '8 >= 17'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 118
+        },
+        {
+            "question": "What is the result of '2 >= 19'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 119
+        },
+        {
+            "question": "What is the result of '9 < 15'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 120
+        },
+        {
+            "question": "What is the result of '13 < 11'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 121
+        },
+        {
+            "question": "What is the result of '15 != 9'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 122
+        },
+        {
+            "question": "What is the result of '8 == 12'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 123
+        },
+        {
+            "question": "What is the result of '14 != 19'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 124
+        },
+        {
+            "question": "What is the result of '10 < 4'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 125
+        },
+        {
+            "question": "What is the result of '9 <= 6'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 126
+        },
+        {
+            "question": "What is the result of '13 >= 10'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 127
+        },
+        {
+            "question": "What is the result of '5 < 3'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 128
+        },
+        {
+            "question": "What is the result of '15 <= 9'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 129
+        },
+        {
+            "question": "What is the result of '4 >= 3'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 130
+        },
+        {
+            "question": "What is the result of '16 >= 2'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 131
+        },
+        {
+            "question": "What is the result of '3 < 11'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 132
+        },
+        {
+            "question": "What is the result of '13 > 9'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 133
+        },
+        {
+            "question": "What is the result of '6 >= 4'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 134
+        },
+        {
+            "question": "What is the result of '13 >= 11'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 135
+        },
+        {
+            "question": "What is the result of '9 < 11'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 136
+        },
+        {
+            "question": "What is the result of '14 != 12'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 137
+        },
+        {
+            "question": "What is the result of '14 <= 1'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 138
+        },
+        {
+            "question": "What is the result of '1 <= 11'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 139
+        },
+        {
+            "question": "What is the result of '3 != 11'?",
+            "type": "true_false",
+            "answer": "true",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 140
+        },
+        {
+            "question": "What is the result of '12 == 20'?",
+            "type": "true_false",
+            "answer": "false",
+            "category": "Boolean Logic",
+            "difficulty": "easy",
+            "question_id": 141
+        },
+        {
+            "question": "Given the list lst = [26, 94, 63, 99, 6], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "63",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 142
+        },
+        {
+            "question": "Given the list lst = [57, 26, 78, 64, 75], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "78",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 143
+        },
+        {
+            "question": "Given the list lst = [85, 95, 99, 94, 61], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "99",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 144
+        },
+        {
+            "question": "Given the list lst = [18, 33, 51, 47, 66], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "51",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 145
+        },
+        {
+            "question": "Given the list lst = [55, 23, 99, 83, 19], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "99",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 146
+        },
+        {
+            "question": "Given the list lst = [80, 64, 81, 60, 54], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "81",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 147
+        },
+        {
+            "question": "Given the list lst = [71, 97, 67, 89, 82], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "67",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 148
+        },
+        {
+            "question": "Given the list lst = [16, 34, 88, 10, 60], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "88",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 149
+        },
+        {
+            "question": "Given the list lst = [87, 91, 1, 28, 13], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "1",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 150
+        },
+        {
+            "question": "Given the list lst = [70, 17, 92, 71, 83], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "92",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 151
+        },
+        {
+            "question": "Given the list lst = [18, 27, 81, 44, 62], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "81",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 152
+        },
+        {
+            "question": "Given the list lst = [46, 79, 16, 52, 27], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "16",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 153
+        },
+        {
+            "question": "Given the list lst = [10, 82, 70, 65, 57], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "70",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 154
+        },
+        {
+            "question": "Given the list lst = [35, 98, 66, 59, 72], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "66",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 155
+        },
+        {
+            "question": "Given the list lst = [14, 96, 32, 70, 56], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "32",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 156
+        },
+        {
+            "question": "Given the list lst = [42, 32, 63, 83, 53], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "63",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 157
+        },
+        {
+            "question": "Given the list lst = [95, 14, 38, 47, 84], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "38",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 158
+        },
+        {
+            "question": "Given the list lst = [48, 7, 71, 81, 30], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "71",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 159
+        },
+        {
+            "question": "Given the list lst = [54, 87, 75, 90, 84], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "75",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 160
+        },
+        {
+            "question": "Given the list lst = [82, 35, 95, 62, 48], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "95",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 161
+        },
+        {
+            "question": "Given the list lst = [37, 23, 89, 79, 62], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "89",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 162
+        },
+        {
+            "question": "Given the list lst = [25, 90, 37, 3, 93], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "37",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 163
+        },
+        {
+            "question": "Given the list lst = [20, 71, 90, 78, 65], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "90",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 164
+        },
+        {
+            "question": "Given the list lst = [94, 88, 1, 17, 63], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "1",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 165
+        },
+        {
+            "question": "Given the list lst = [55, 66, 21, 81, 4], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "21",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 166
+        },
+        {
+            "question": "Given the list lst = [29, 22, 34, 2, 40], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "34",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 167
+        },
+        {
+            "question": "Given the list lst = [67, 98, 99, 83, 89], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "99",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 168
+        },
+        {
+            "question": "Given the list lst = [35, 77, 16, 82, 5], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "16",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 169
+        },
+        {
+            "question": "Given the list lst = [3, 42, 86, 5, 39], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "86",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 170
+        },
+        {
+            "question": "Given the list lst = [52, 83, 49, 60, 4], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "49",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 171
+        },
+        {
+            "question": "Given the list lst = [59, 75, 3, 62, 30], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "3",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 172
+        },
+        {
+            "question": "Given the list lst = [48, 15, 89, 34, 18], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "89",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 173
+        },
+        {
+            "question": "Given the list lst = [11, 97, 79, 9, 78], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "79",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 174
+        },
+        {
+            "question": "Given the list lst = [67, 42, 49, 52, 14], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "49",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 175
+        },
+        {
+            "question": "Given the list lst = [74, 70, 48, 13, 86], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "48",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 176
+        },
+        {
+            "question": "Given the list lst = [1, 75, 45, 84, 57], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "45",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 177
+        },
+        {
+            "question": "Given the list lst = [74, 59, 7, 18, 34], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 178
+        },
+        {
+            "question": "Given the list lst = [28, 41, 14, 51, 26], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "14",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 179
+        },
+        {
+            "question": "Given the list lst = [5, 82, 33, 1, 66], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "33",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 180
+        },
+        {
+            "question": "Given the list lst = [39, 98, 59, 99, 13], what is the value of lst[2]?",
+            "type": "short_answer",
+            "answer": "59",
+            "category": "Data Structures",
+            "difficulty": "medium",
+            "question_id": 181
+        },
+        {
+            "question": "What is the length of the string 'srxatmmgm'?",
+            "type": "short_answer",
+            "answer": "9",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 182
+        },
+        {
+            "question": "What is the length of the string 'emwrpd'?",
+            "type": "short_answer",
+            "answer": "6",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 183
+        },
+        {
+            "question": "What is the length of the string 'zzsvx'?",
+            "type": "short_answer",
+            "answer": "5",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 184
+        },
+        {
+            "question": "What is the length of the string 'jiyabqh'?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 185
+        },
+        {
+            "question": "What is the length of the string 'wwihzij'?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 186
+        },
+        {
+            "question": "What is the length of the string 'yxecawfi'?",
+            "type": "short_answer",
+            "answer": "8",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 187
+        },
+        {
+            "question": "What is the length of the string 'kbbrlv'?",
+            "type": "short_answer",
+            "answer": "6",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 188
+        },
+        {
+            "question": "What is the length of the string 'feqruou'?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 189
+        },
+        {
+            "question": "What is the length of the string 'ccgakgcduk'?",
+            "type": "short_answer",
+            "answer": "10",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 190
+        },
+        {
+            "question": "What is the length of the string 'wyxapvl'?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 191
+        },
+        {
+            "question": "What is the length of the string 'phdjyte'?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 192
+        },
+        {
+            "question": "What is the length of the string 'jxolw'?",
+            "type": "short_answer",
+            "answer": "5",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 193
+        },
+        {
+            "question": "What is the length of the string 'ivqogj'?",
+            "type": "short_answer",
+            "answer": "6",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 194
+        },
+        {
+            "question": "What is the length of the string 'ryatokcsp'?",
+            "type": "short_answer",
+            "answer": "9",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 195
+        },
+        {
+            "question": "What is the length of the string 'pfej'?",
+            "type": "short_answer",
+            "answer": "4",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 196
+        },
+        {
+            "question": "What is the length of the string 'mzsziub'?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 197
+        },
+        {
+            "question": "What is the length of the string 'hxqeswb'?",
+            "type": "short_answer",
+            "answer": "7",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 198
+        },
+        {
+            "question": "What is the length of the string 'metbdwuwu'?",
+            "type": "short_answer",
+            "answer": "9",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 199
+        },
+        {
+            "question": "What is the length of the string 'xfhnruvlcu'?",
+            "type": "short_answer",
+            "answer": "10",
+            "category": "Strings",
+            "difficulty": "easy",
+            "question_id": 200
+        }
+    ]
+}
